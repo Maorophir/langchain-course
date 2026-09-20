@@ -1,0 +1,26 @@
+[project]
+name = "langchain-course"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Maorophir", email = "maorophir@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "black>=25.1.0",
+    "isort>=6.0.1",
+    "langchain>=0.3.27",
+    "langchain-core>=1.6.3",
+    "langchain-google-genai>=4.4.0",
+    "langchain-openai>=0.3.31",
+    "langchain-pinecone>=0.2.11",
+    "langchain-text-splitters>=1.1.2",
+    "langchain-unstructured>=1.0.1",
+    "python-dotenv>=1.1.1",
+    "unstructured>=0.23.1",
+]
+
+[tool.uv]
+package = false
+
